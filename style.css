@@ -1,0 +1,51 @@
+* {
+    margin: 0 ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* common useing class */
+.wehi{
+    width: 70%;
+    max-width: 1057px;
+}
+
+/* this is useing for button  */
+
+.btn {
+    width: 164px;
+    height: 44px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* this is useing for maneg rasio  */
+
+.ratio{
+    margin: 0 auto;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+nav .logo{
+    width: 139px ;
+    height: 60px;
+}
